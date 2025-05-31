@@ -1,0 +1,25 @@
+.heading{
+   color:rgb(255, 248, 248);
+   
+}
+
+body{
+    background: linear-gradient(100deg, #720303, #3d1016, #32010b);
+}
+
+.about{
+    color:rgb(255, 248, 248);
+}
+
+.objective{
+    color:rgb(255, 248, 248);
+}
+
+.listTitle{
+    color:rgb(255, 248, 248);
+}
+
+dd{
+    color:rgb(255, 248, 248);
+}
+
