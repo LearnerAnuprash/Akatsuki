@@ -33,11 +33,12 @@ body{
 
 .listTitle{
     font-family:cursive;
-    font-size:2.5rem;
+    font-size:4rem;
     font-weight:bold;
     color:rgb(255, 248, 248);
-    margin-left:1em;
-    margin-right:1em;
+    max-width:60%;
+    text-align:center;
+    margin:20px auto;
 
 }
 
@@ -45,11 +46,13 @@ dd{
     color:rgb(255, 248, 248);
     color:rgb(255, 248, 248);
     font-family: "Special Elite", system-ui;
-    font-size:1.60rem;
+    font-size:2rem;
     font-weight: 400;
     font-style:normal;
-    margin-left:1em;
-    margin-right:1em;
+    max-width:60%;
+    margin:20px auto;
+    text-align: center;
+
 }
 
 
@@ -140,3 +143,15 @@ a:visited{
     border-top: 0.1em solid white;
  }
 
+#painTitle{
+    font-family:cursive;
+    font-size:4rem;
+    font-weight:bold;
+    color:rgb(255, 248, 248);
+    max-width:60%;
+    text-align:center;
+    margin:0px auto;
+    border:0.04em solid rgb(133, 35, 18);
+    border-radius:0.3em;
+    
+}
