@@ -1,25 +1,86 @@
-.heading{
-   color:rgb(255, 248, 248);
-   
-}
 
 body{
     background: linear-gradient(100deg, #720303, #3d1016, #32010b);
+    margin-top:0px;
 }
 
 .about{
     color:rgb(255, 248, 248);
+    font-family: "Special Elite", system-ui;
+    font-size:1.60rem;
+    font-weight: 400;
+    font-style:normal;
 }
 
 .objective{
     color:rgb(255, 248, 248);
+    color:rgb(255, 248, 248);
+    font-family: "Special Elite", system-ui;
+    font-size:1.60rem;
+    font-weight: 400;
+    font-style:normal;
 }
 
 .listTitle{
+    font-family:cursive;
+    font-size:2.5rem;
+    font-weight:bold;
     color:rgb(255, 248, 248);
+
 }
 
 dd{
     color:rgb(255, 248, 248);
+    color:rgb(255, 248, 248);
+    font-family: "Special Elite", system-ui;
+    font-size:1.60rem;
+    font-weight: 400;
+    font-style:normal;
 }
+
+
+/*Changing font for main Akatsuki heading*/
+h1{
+    font-family: "New Rocker", system-ui;
+    font-size:3.2rem;
+  font-weight: 400;
+  font-style: normal;
+  margin:3vh;;
+}
+
+/*Changing font for other headings except for h1*/
+h2,h3,h4{
+    font-family: "UnifrakturCook";
+  font-weight: 700;
+  font-style: normal;
+  font-size:1.9rem;
+  color:rgb(255, 248, 248);
+}
+
+nav{
+    display:flex;
+    font-family:"New Rocker",system-ui;
+    color:aliceblue;
+    font-size:2rem;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/*Removing default styling of anchor tags */
+
+a{
+    text-decoration:none;
+}
+
+a:link{
+    color:aliceblue;
+}
+
+a:visited{
+    color:aliceblue;
+}
+
+/*Styling for remaining 3 nav elements except for H1*/
+
+
 
