@@ -25,7 +25,7 @@ body{
     font-size:2rem;
     font-weight: 400;
     font-style:normal;
-    max-width:60%;
+    max-width:70%;
     text-align:center;
     margin:20px auto;
 
@@ -39,7 +39,8 @@ body{
     max-width:60%;
     text-align:center;
     margin:20px auto;
-
+    box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
+    background: linear-gradient(to right, #330000, #800000, #1a0000);
 }
 
 dd{
@@ -52,7 +53,6 @@ dd{
     max-width:60%;
     margin:20px auto;
     text-align: center;
-
 }
 
 
@@ -78,6 +78,7 @@ h2,h3,h4{
   display:flex;
   justify-content:center;
   margin-top:0.1em;
+  box-shadow: 0 0.15em 0.5em rgba(0, 0, 0, 0.4);
   
 }
 
@@ -148,10 +149,14 @@ a:visited{
     font-size:4rem;
     font-weight:bold;
     color:rgb(255, 248, 248);
-    max-width:60%;
+    max-width:70%;
     text-align:center;
     margin:0px auto;
-    border:0.04em solid rgb(133, 35, 18);
-    border-radius:0.3em;
-    
+    box-shadow: 0 0.2em 0.5em rgba(239, 239, 239, 0.4);
+    background: linear-gradient(to right, #330000, #800000, #1a0000);
 }
+
+.allComponent{
+    border:0.3rem solid white;
+    border-radius:1rem;
+} 
