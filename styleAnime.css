@@ -53,6 +53,10 @@ dd{
     
 }
 
+a{
+    text-decoration:none;
+}
+
 
 /*Changing font for main Akatsuki heading*/
 h1{
@@ -61,6 +65,9 @@ h1{
   font-weight: 400;
   font-style: normal;
   margin:3vh;
+  background:linear-gradient(to right, #ababab, #f5f5f5, #2e0000);
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
 }
 
 /*Changing font for other headings except for h1*/
@@ -98,18 +105,14 @@ nav{
 
 /*Removing default styling of anchor tags */
 
-a{
-    text-decoration:none;
-    background:linear-gradient(to right, #ababab, #f5f5f5, #2e0000);
-   -webkit-background-clip:text;
-   -webkit-text-fill-color: transparent;
-}
+
 
 /*Styling for remaining 3 nav elements except for H1*/
 
-#aboutNav,#objectiveNav,#membersNav{
-    border:0.18rem solid white;padding:0.5rem;
+#aboutNav,#objectiveNav{
+    padding:0.5rem;
     border-radius: 0.5em;
+    
 }
 
 /*Fixing image position */
@@ -164,14 +167,12 @@ select{
 
 .dropdown-menu:hover{
     background-color:white;
-    transition-duration: 200ms;
+    
     color:#720303;
-}
+   transform:scale(0.90);
+    transition:transform 300ms;
+    border-radius:1rem;
 
-#objectiveNav:hover,#aboutNav:hover{
-    background-color:white;
-    color:#720303;
-    cursor:pointer;
 }
 
 h2:hover,h3:hover,h4:hover{
@@ -211,3 +212,21 @@ h2:hover,h3:hover,h4:hover{
 html{
     scroll-behavior:smooth;
 }
+
+#aboutNav a,#objectiveNav a{
+    color:white;
+}
+
+#aboutNav:hover,#objectiveNav:hover{
+    background-color:white;
+    transform:scale(0.85);
+    transition:transform 265ms;
+    
+}
+
+#aboutNav a:hover,#objectiveNav a:hover{
+    color:#720303;
+}
+
+
+
