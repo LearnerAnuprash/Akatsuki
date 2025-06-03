@@ -207,3 +207,7 @@ h2:hover,h3:hover,h4:hover{
     box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
     transition:box-shadow 220ms;
 }
+
+html{
+    scroll-behavior:smooth;
+}
