@@ -39,7 +39,6 @@ body{
     max-width:60%;
     text-align:center;
     margin:20px auto;
-    box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
     background: linear-gradient(to right, #330000, #800000, #1a0000);
 }
 
@@ -51,7 +50,6 @@ dd{
     font-weight: 400;
     font-style:normal;
     max-width:60%;
-
     
 }
 
@@ -127,7 +125,7 @@ a{
  }
 
  .individualImage{
-    max-width:40rem;
+    max-width:80vh;
  }
 
  h3{
@@ -146,7 +144,6 @@ a{
     max-width:70%;
     text-align:center;
     margin:0px auto;
-    box-shadow: 0 0.2em 0.5em rgba(239, 239, 239, 0.4);
     background: linear-gradient(to right, #330000, #800000, #1a0000);
 }
 
@@ -191,6 +188,8 @@ h2:hover,h3:hover,h4:hover{
 
 #painTitle:hover{
     cursor:pointer;
+    box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
+    transition:box-shadow 220ms;
 }
 
 #pain{
@@ -202,4 +201,9 @@ h2:hover,h3:hover,h4:hover{
     text-align:center;
     align-items:center;
     justify-content:space-evenly;
+}
+
+.listTitle:hover{
+    box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
+    transition:box-shadow 220ms;
 }
