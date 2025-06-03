@@ -110,8 +110,9 @@ nav{
 /*Styling for remaining 3 nav elements except for H1*/
 
 #aboutNav,#objectiveNav{
-    padding:0.5rem;
-    border-radius: 0.5em;
+    border-radius:0.6em;
+    padding-left:0.3em;
+    padding-right:0.3em;
     
 }
 
@@ -170,8 +171,8 @@ select{
     
     color:#720303;
    transform:scale(0.90);
-    transition:transform 300ms;
-    border-radius:1rem;
+    transition:transform 200ms;
+    border-radius:1.3rem;
 
 }
 
@@ -207,6 +208,7 @@ h2:hover,h3:hover,h4:hover{
 .listTitle:hover{
     box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
     transition:box-shadow 220ms;
+   
 }
 
 html{
@@ -220,7 +222,7 @@ html{
 #aboutNav:hover,#objectiveNav:hover{
     background-color:white;
     transform:scale(0.85);
-    transition:transform 265ms;
+    transition:transform 200ms;
     
 }
 
