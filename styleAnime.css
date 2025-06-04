@@ -168,7 +168,7 @@ select{
 
 .dropdown-menu:hover{
     background-color:white;
-    
+    cursor:pointer;
     color:#720303;
    transform:scale(0.90);
     transition:transform 200ms;
@@ -230,5 +230,9 @@ html{
     color:#720303;
 }
 
-
+ul{
+    margin-top:75vh;
+    list-style: none;
+    border:5px solid white;
+}
 
