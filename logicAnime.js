@@ -12,5 +12,3 @@ window.addEventListener("scroll",()=>{
    },200);
 
 });
-
-

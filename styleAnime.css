@@ -223,22 +223,19 @@ html{
 
 ul{
     list-style: none;
-    padding:0px;
-    margin-top:94vh;
+    padding: 0px;
+    margin-top: 94vh;
+    display: none; 
+    position: absolute; 
+    background-color: white; 
+    border: 3px solid #720303;
+    border-radius: 2rem;
+    width: 20rem;
+    z-index: 1000; 
     
 }
 
-.flexibleDropdown{
-    display:flex;
-    color:#720303;
-    opacity:80%;
-    border:3px solid #720303;
-    align-items:center;
-    background-color:white;
-    border-radius:2rem;
-    width:20rem;
-    height:3rem;
-}
+
 
 .flexibleDropdown:hover{
      cursor:pointer;
