@@ -1,266 +1,293 @@
-
-body{
-    background: linear-gradient(100deg, #720303, #3d1016, #32010b);
-    margin-top:0px;
-    /* border-left:0.1em solid white;
+body {
+  background: linear-gradient(100deg, #720303, #3d1016, #32010b);
+  margin-top: 0px;
+  /* border-left:0.1em solid white;
     border-right:0.1em solid white; */
 }
 
-.about{
-    color:rgb(255, 248, 248);
-    font-family: "Special Elite", system-ui;
-    font-size:2rem;
-    font-weight: 400;
-    font-style:normal;
-    max-width:60%;
-    text-align:center;
-    margin:20px auto;
-   
-}
-
-.objective{
-    color:rgb(255, 248, 248);
-    color:rgb(255, 248, 248);
-    font-family: "Special Elite", system-ui;
-    font-size:2rem;
-    font-weight: 400;
-    font-style:normal;
-    max-width:70%;
-    text-align:center;
-    margin:20px auto;
-
-}
-
-.listTitle{
-    font-family:cursive;
-    font-size:4rem;
-    font-weight:bold;
-    color:rgb(255, 248, 248);
-    max-width:60%;
-    text-align:center;
-    margin:20px auto;
-    background: linear-gradient(to right, #330000, #800000, #1a0000);
-}
-
-dd{
-    color:rgb(255, 248, 248);
-    color:rgb(255, 248, 248);
-    font-family: "Special Elite", system-ui;
-    font-size:2rem;
-    font-weight: 400;
-    font-style:normal;
-    max-width:60%;
-    
-}
-
-a{
-    text-decoration:none;
-}
-
-
-/*Changing font for main Akatsuki heading*/
-h1{
-    font-family: "New Rocker", system-ui;
-    font-size:3.2rem;
+.about {
+  color: rgb(255, 248, 248);
+  font-family: "Special Elite", system-ui;
+  font-size: 2rem;
   font-weight: 400;
   font-style: normal;
-  margin:3vh;
-  background:linear-gradient(to right, #ababab, #f5f5f5, #2e0000);
-   -webkit-background-clip:text;
-   -webkit-text-fill-color: transparent;
+  max-width: 60%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.objective {
+  color: rgb(255, 248, 248);
+  color: rgb(255, 248, 248);
+  font-family: "Special Elite", system-ui;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 70%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.listTitle {
+  font-family: cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(255, 248, 248);
+  max-width: 60%;
+  text-align: center;
+  margin: 20px auto;
+  background: linear-gradient(to right, #330000, #800000, #1a0000);
+}
+
+dd {
+  color: rgb(255, 248, 248);
+  color: rgb(255, 248, 248);
+  font-family: "Special Elite", system-ui;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 60%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Changing font for main Akatsuki heading*/
+h1 {
+  font-family: "New Rocker", system-ui;
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-style: normal;
+  margin: 3vh;
+  background: linear-gradient(to right, #ababab, #f5f5f5, #2e0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*Changing font for other headings except for h1*/
-h2,h3,h4{
-    font-family: "UnifrakturCook";
+h2,
+h3,
+h4 {
+  font-family: "UnifrakturCook";
   font-weight: 700;
   font-style: normal;
-  font-size:2.6rem;
-  color:rgb(255, 248, 248);
-  margin-left:1em;
-    margin-right:1em;
-  border-bottom:0.1em solid white;
-  display:flex;
-  justify-content:center;
-  margin-top:0.1em;
+  font-size: 2.6rem;
+  color: rgb(255, 248, 248);
+  margin-left: 1em;
+  margin-right: 1em;
+  border-bottom: 0.1em solid white;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.1em;
   box-shadow: 0 0.15em 0.5em rgba(0, 0, 0, 0.4);
-  
 }
 
-nav{
-    position:fixed;
-    display:flex;
-    font-family:"New Rocker",system-ui;
-    color:aliceblue;
-    font-size:2rem;
-    justify-content:space-between;
-    align-items:center;
-    border-top:0.1em solid white;
-    border-bottom:0.1em solid white;
-    background-color: #720303;
-    width:99%;
-    height:10.5%;
+nav {
+  position: fixed;
+  display: flex;
+  font-family: "New Rocker", system-ui;
+  color: aliceblue;
+  font-size: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 0.1em solid white;
+  border-bottom: 0.1em solid white;
+  background-color: #720303;
+  width: 99%;
+  height: 10.5%;
 }
-
 
 /*Removing default styling of anchor tags */
 
-
-
 /*Styling for remaining 3 nav elements except for H1*/
 
-#aboutNav,#objectiveNav{
-    border-radius:0.6em;
-    padding-left:0.3em;
-    padding-right:0.3em;
-    
+#aboutNav,
+#objectiveNav {
+  border-radius: 0.6em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
 }
 
 /*Fixing image position */
 
- .mainImageContainer{
-    display:flex;
-    justify-content:center;
-    padding-top:5rem;
- }
-
- #akat{
-    border-bottom:0.1em solid white;
- }
-
- .individualImage{
-    max-width:80vh;
- }
-
- h3{
-    border-top: 0.1em solid white;
- }
-
- h4{
-    border-top: 0.1em solid white;
- }
-
-#painTitle{
-    font-family:cursive;
-    font-size:4rem;
-    font-weight:bold;
-    color:rgb(255, 248, 248);
-    max-width:70%;
-    text-align:center;
-    margin:0px auto;
-    background: linear-gradient(to right, #330000, #800000, #1a0000);
+.mainImageContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
 }
 
-.allComponent{
-    border:0.3rem solid white;
-    border-radius:1rem;
-} 
-
-select{
-    background-color:#720303;
-    box-shadow:none;
-    font-family:"New Rocker",system-ui;
-    color:aliceblue;
-    font-size:2rem;
-    border:none;
-    Cursor:pointer;
+#akat {
+  border-bottom: 0.1em solid white;
 }
 
-
-h2:hover,h3:hover,h4:hover{
-    background:linear-gradient(to right, #6f0606, #f5f5f5, #2e0000);
-   -webkit-background-clip:text;
-   -webkit-text-fill-color: transparent;
-    transition:color 150ms;
-    cursor:pointer;
+.individualImage {
+  max-width: 80vh;
 }
 
-.listTitle:hover{
-   cursor:pointer;
+h3 {
+  border-top: 0.1em solid white;
 }
 
-#painTitle:hover{
-    cursor:pointer;
-    box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
-    transition:box-shadow 220ms;
+h4 {
+  border-top: 0.1em solid white;
 }
 
-#pain{
-    max-width:50vh;
+#painTitle {
+  font-family: cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(255, 248, 248);
+  max-width: 70%;
+  text-align: center;
+  margin: 0px auto;
+  background: linear-gradient(to right, #330000, #800000, #1a0000);
 }
 
-.alignmentOfText{
-    display:flex;
-    text-align:center;
-    align-items:center;
-    justify-content:space-evenly;
+.allComponent {
+  border: 0.3rem solid white;
+  border-radius: 1rem;
 }
 
-.listTitle:hover{
-    box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
-    transition:box-shadow 220ms;
-   
+select {
+  background-color: #720303;
+  box-shadow: none;
+  font-family: "New Rocker", system-ui;
+  color: aliceblue;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
 }
 
-html{
-    scroll-behavior:smooth;
+h2:hover,
+h3:hover,
+h4:hover {
+  background: linear-gradient(to right, #6f0606, #f5f5f5, #2e0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: color 150ms;
+  cursor: pointer;
 }
 
-#aboutNav a,#objectiveNav a{
-    color:white;
+.listTitle:hover {
+  cursor: pointer;
 }
 
-#aboutNav:hover,#objectiveNav:hover{
-    background-color:white;
-    transform:scale(0.85);
-    transition:transform 200ms;
-    
+#painTitle:hover {
+  cursor: pointer;
+  box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
+  transition: box-shadow 220ms;
 }
 
-#aboutNav a:hover,#objectiveNav a:hover{
-    color:#720303;
+#pain {
+  max-width: 50vh;
 }
 
-ul{
-    list-style: none;
-    padding: 0px;
-    margin-top: 94vh;
-    display: none; 
-    position: absolute; 
-    background-color: white; 
-    border: 3px solid #720303;
-    border-radius: 2rem;
-    width: 20rem;
-    z-index: 1000; 
-    
+.alignmentOfText {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-
-
-.flexibleDropdown:hover{
-     cursor:pointer;
-     transform:scale(0.8);
-    transition:transform 300ms;
-    border-radius:3rem;
-    opacity:100%;
+.listTitle:hover {
+  box-shadow: 0 0.2em 0.5em rgba(255, 255, 255, 0.4);
+  transition: box-shadow 220ms;
 }
 
-#orochiIcon{
-    width:5rem;
-    height:auto;
-    padding-left:5rem;
+html {
+  scroll-behavior: smooth;
 }
 
-.dropdown-menu:hover{
-    background-color:white;
-    transform:scale(0.85);
-    transition:transform 200ms;
-    cursor:pointer;
-    color:#720303;
-    border-radius:2rem;
+#aboutNav a,
+#objectiveNav a {
+  color: white;
 }
 
-.imageNav{
-    transform:scale(0.35);
-    padding-left:1rem;
+#aboutNav:hover,
+#objectiveNav:hover {
+  background-color: white;
+  transform: scale(0.85);
+  transition: transform 200ms;
+}
+
+#aboutNav a:hover,
+#objectiveNav a:hover {
+  color: #720303;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: calc(100% + 0.3rem); /* place just below the fixed nav bar */
+  right: 1rem; /* align toward the right (under Members) */
+  border-radius: 2rem;
+  width: auto;
+  z-index: 1000;
+  transform: none;
+}
+
+.flexibleDropdown {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* keep icon + text on one line */
+  gap: 0.6rem; /* space between icon and text */
+  height: 3.1rem;
+  width: 20rem;
+  background-color: rgb(248, 206, 206);
+  transition: transform 0.3s ease;
+  border-radius: 2rem;
+  color: #720303;
+  padding: 0 1rem; /* give some horizontal breathing room */
+  box-sizing: border-box;
+}
+
+.flexibleDropdown:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+  transition: transform 300ms;
+  border-radius: 3rem;
+  opacity: 100%;
+}
+
+.flexibleDropdown img,
+.imageNav {
+  display: inline-block;
+  width: 2.4rem; /* fixed small icon size */
+  height: auto;
+  vertical-align: middle;
+  margin: 0; /* reset any extra spacing */
+  padding: 0; /* remove left padding so it doesn't push text */
+  transform: none; /* remove previous scaling transform */
+}
+
+.flexibleDropdown li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  font-size: 1.15rem; /* adjust text size to fit the small icons visually */
+  color: #720303;
+}
+
+#orochiIcon {
+  width: 1.7rem;
+  height: auto;
+  padding-left: 0.4rem;
+}
+
+.dropdown-menu:hover {
+  background-color: white;
+  transform: scale(0.85);
+  transition: transform 200ms;
+  cursor: pointer;
+  color: #720303;
+  border-radius: 2rem;
+}
+
+.imageNav {
+  transform: scale(0.35);
+  padding-left: 1rem;
 }
