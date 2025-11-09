@@ -208,7 +208,7 @@ html {
 #objectiveNav:hover {
   background-color: white;
   transform: scale(0.85);
-  transition: transform 200ms;
+  transition: transform 300ms ease;
 }
 
 #aboutNav a:hover,
@@ -234,8 +234,8 @@ ul {
   align-items: center;
   justify-content: flex-start; /* keep icon + text on one line */
   gap: 0.6rem; /* space between icon and text */
-  height: 3.1rem;
-  width: 20rem;
+  height: 2.7rem;
+  width: 10rem;
   background-color: rgb(248, 206, 206);
   transition: transform 0.3s ease;
   border-radius: 2rem;
@@ -278,10 +278,14 @@ ul {
   padding-left: 0.4rem;
 }
 
+.dropdown-menu {
+  transition: transform 300ms ease;
+}
+
 .dropdown-menu:hover {
   background-color: white;
   transform: scale(0.85);
-  transition: transform 200ms;
+
   cursor: pointer;
   color: #720303;
   border-radius: 2rem;
